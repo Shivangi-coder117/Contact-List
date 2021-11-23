@@ -1,0 +1,54 @@
+body{
+  margin: 0;
+}
+ul{
+    text-decoration: none;
+}
+#first_heading
+{
+    margin-top: 25px;
+    text-align: center;
+    color: gray;
+    font-family: sans-serif;
+    
+}
+.contacts
+{
+    background-color: rgb(123, 105, 243);
+    text-align: center;
+    padding: 3px 10px;
+    width:40%;
+    height:7%;
+    border:1px solid rgb(21, 21, 73);
+    margin:5px;
+   
+    margin-left: 22rem;
+}
+.contacts:hover
+{
+    background-color: lightsteelblue;
+    
+}
+.details
+{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    
+    font-weight: bolder;
+    font-size:large;
+}
+#new_contacts
+{
+    text-align: center;
+}
+.delete_button
+{
+    padding-left:98%;
+    margin-top: -57px;
+   
+}
+.delete_button:hover
+{
+    color:red;
+}
